@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+:root {
+  --primary-color: blueviolet;
+}
+
+body {
+  background: #F2F2F2;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.barranav {
+  background: white;
+  padding: 1em;
+  margin: 0;
+}
+
+.barranav .principal-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: none;
+  position: unset;
+  width: 100%;
+}
+
+.barranav .principal-nav a {
+  margin-top: 0;
+  padding: .1em 1em;
+}
+
+.barranav .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+.barranav .logo span {
+  color: var(--primary-color);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  --place-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.Fotos {
+  text-align: center;
+}
+
+.Fotos .fotosesq .subtitulo {
+  text-transform: uppercase;
+  color: grey;
+  letter-spacing: 1em;
+}
+
+.Fotos .fotosesq h1 {
+  font-size: 2.5em;
+  line-height: .2em;
+  margin-top: .2em;
+}
+
+.Fotos .fotosesq .fotos img {
+  width: 20%;
+  height: 20%;
+  margin: 10px auto 10px auto;
+  border-radius: 50%;
+}
+
+.lugares {
+  background-color: white;
+}
+/*# sourceMappingURL=main.css.map */
